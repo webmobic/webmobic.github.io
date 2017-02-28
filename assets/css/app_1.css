@@ -77,7 +77,7 @@ dfn {
 }
 
 h1 {
-  font-size: 2em;
+/*  font-size: 2em;*/
   margin: 0.67em 0;
 }
 
@@ -1606,7 +1606,7 @@ h6 .small,
 
 h1,
 .h1 {
-  font-size: 33px;
+/*  font-size: 33px;*/
 }
 
 h2,
