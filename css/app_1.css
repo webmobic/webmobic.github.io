@@ -15201,5 +15201,9 @@ html:not(.ie9) .select.fg-line:before {
 a{cursor:pointer !importnat;}
 .m-w-50{max-width: 50%;}
 
+@media (max-width: 900px){
+    .m-w-50{max-width: 100%;}
+}
+
 .mdl-cell{text-align: left;}
 .img-border{border: 1px solid #ddd;;}
