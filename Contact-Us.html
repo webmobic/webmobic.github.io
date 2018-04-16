@@ -103,23 +103,7 @@
                             <img src="images/contact1.jpg" class="m-w-50 m-b-20  p-b-25"/>
 				        </div>
                         <div class="col-md-12">
-                            <div id="map"></div>
-    <script>
-      function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy1G3hiugEb9sXaG39FKF5KdMgHVgg8yQ&callback=initMap">
-    </script>
+                            <div class="mapouter"><div class="gmap_canvas"><iframe width="800" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=gurgaon&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.mapouter{overflow:hidden;height:400px;width:800px;}.gmap_canvas {background:none!important;height:400px;width:800px;}</style></div>
 
                         </div>
 						
