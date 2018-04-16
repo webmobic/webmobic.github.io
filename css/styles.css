@@ -188,12 +188,13 @@ a img{
 
 .android-slogan {
   font-size: 60px;
-  padding-top: 260px;
+  padding:260px 5% 0px 5%;
 }
 
 .android-sub-slogan {
   font-size: 21px;
-  padding-top: 24px;
+    padding: 2% 10%;
+    line-height: 28px;
 }
 
 .android-create-character {
@@ -509,7 +510,8 @@ a img{
   .android-slogan {
     font-size: 26px;
     margin: 0 16px;
-    padding-top: 24px;
+    padding-top: 17%;
+      line-height: 38px;
   }
 
   .android-sub-slogan {
